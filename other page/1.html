@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header {
+            background-size: cover;
+            background-position: center;
+            color: rgb(2, 2, 2);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgb(29, 4, 4);
+            width: 100%;
+            animation: fadeInDown 1s ease both;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header nav {
+            margin-top: 10px;
+           
+            background-color: #802a2a00;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+        }
+
+        header nav ul {
+           
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            animation: fadeIn 1s ease both;
+        }
+
+        header nav ul li a:hover {
+            color: rgba(204, 204, 204, 0);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('../imgaegs/place/shenmehongbai.png'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #f4f4f4;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+     .scenic-spot {
+            display: inline-block;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+            background-color: white;
+            transition: transform 0.3s ease;
+        }
+
+     .scenic-spot:hover {
+            transform: scale(1.05);
+        }
+
+     .scenic-spot img {
+            width: 100%; 
+            height: auto; 
+            max-height: 150px; 
+            object-fit: cover;
+            border-radius: 10px; 
+        }
+
+     .scenic-spot h3 {
+            text-align: center;
+            margin: 5px 0;
+            color: #333;
+            font-size: 16px;
+        }
+
+     .scenic-spot p {
+            text-align: left;
+            margin: 5px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><strong>四川 - 德阳</strong></h1>
+        <nav>
+            <ul>
+                <li><a href="index2.html">首页</a></li>
+                <li><a href="0.html">德阳-三星堆</a></li>
+                <li><a href="2.html">德阳美食</a></li>
+                <li><a href="3.html">德阳历史</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img class="tupian">
+        <section>
+            <h2>德阳热门景点</h2>
+            <div class="scenic-spot">
+                <img src="../imgaegs/place/sanxingdui.png" alt="三星堆博物馆" data-href="https://www.sxd.cn/">
+                <h3>三星堆博物馆</h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;三星堆博物馆是中国一座现代化的专题性遗址博物馆，位于德阳广汉市西北的鸭子河南岸。这里出土了大量造型奇特、风格迥异的青铜器、金器、玉器等文物，展示了古蜀文明的神秘与辉煌，是了解古代蜀地文化的重要窗口。</p>
+            </div>
+            <div class="scenic-spot">
+                <img src="../imgaegs/place/wenmiao.jpeg" alt="德阳孔庙" data-href="https://baike.baidu.com/item/%E5%BE%B7%E9%98%B3%E6%96%87%E5%BA%99/6918305">
+                <h3>德阳孔庙</h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;德阳孔庙是中国西部地区保存完整、规模宏大、具有浓郁地方特色的文庙建筑群。其建筑风格庄重典雅，红墙黄瓦，雕梁画栋，蕴含着深厚的儒家文化底蕴，是感受传统文化氛围的好去处。</p>
+            </div>
+            <div class="scenic-spot">
+                <img src="../imgaegs/place/jinhuasan.jpeg" alt="蓥华山" data-href="https://baike.baidu.com/item/%E8%93%A5%E5%8D%8E%E5%B1%B1?fromModule=lemma_search-box">
+                <h3>蓥华山</h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;蓥华山位于德阳什邡市西北，以其秀丽的自然风光和丰富的动植物资源而闻名。山上云雾缭绕，峰峦叠嶂，有清澈的溪流、壮观的瀑布等景观，是徒步旅行、登山探险爱好者的心仪之地。</p>
+            </div>
+            <div class="scenic-spot">
+                <img src="../imgaegs/place/baimaguan.png" alt="罗江白马关" data-href="https://baike.baidu.com/item/%E7%99%BD%E9%A9%AC%E5%85%B3/13849192?fromtitle=%E7%BD%97%E6%B1%9F%E7%99%BD%E9%A9%AC%E5%85%B3&fromid=13480692&fromModule=lemma_search-box">
+                <h3>罗江白马关</h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;罗江白马关是德阳罗江区的重要景点，这里承载着丰富的三国文化底蕴。有关羽点将台等历史遗迹，古柏参天，氛围古朴而庄重，吸引着众多历史文化爱好者前来探寻三国往事。</p>
+            </div>
+            <div class="scenic-spot">
+                <img src="../imgaegs/place/ikob6055.png" alt="中江黄继光纪念馆" data-href="https://baike.baidu.com/item/%E9%BB%84%E7%BB%A7%E5%85%89%E7%BA%AA%E5%BF%B5%E9%A6%86/2966701?fromModule=lemma_search-box">
+                <h3>中江黄继光纪念馆</h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;中江黄继光纪念馆是为纪念特级英雄黄继光而建。馆内陈列着大量与黄继光相关的珍贵文物、史料及图片等，生动展现了黄继光英勇无畏的英雄事迹，是进行爱国主义教育的重要场所。</p>
+            </div>
+            <div class="scenic-spot">
+                <img src="../imgaegs/place/fangfugongyuan.jpeg" alt="广汉房湖公园" data-href="https://baike.baidu.com/item/%E6%88%BF%E6%B9%96%E5%85%AC%E5%9B%AD?fromtitle=%E5%B9%BF%E6%B1%89%E6%88%BF%E6%B9%96%E5%85%AC%E5%9B%AD&fromid=10793548&fromModule=lemma_search-box">
+                <h3>广汉房湖公园</h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;广汉房湖公园是一座历史悠久、风景秀丽的公园。园内有湖水清澈的房湖，还有众多古建筑如棂星门等，兼具自然风光与人文景观，是市民休闲娱乐的好去处。</p>
+            </div>
+            <div class="scenic-spot">
+                <img src="../imgaegs/place/shenmehongbai.png" alt="什邡红白镇" data-href="https://baike.baidu.com/item/%E7%BA%A2%E7%99%BD%E9%95%87/6935408?fromModule=search-result_lemma">
+                <h3>什邡红白镇</h3>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;什邡红白镇地处山区，自然风光优美，有茂密的森林、清澈的溪流等。同时，这里也是地震灾后重建的典范区域，展现了坚韧不拔的抗震精神，吸引着不少游客前来感受自然与人文的魅力。</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        const scenicSpots = document.querySelectorAll('.scenic-spot');
+
+        scenicSpots.forEach((spot) => {
+            const img = spot.querySelector('img');
+            const href = img.dataset.href;
+
+            spot.addEventListener('click', () => {
+                if (href) {
+                    window.location.href = href;
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
